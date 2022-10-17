@@ -68,10 +68,11 @@ namespace TejasiAssignment1
                 Console.WriteLine("Employee age is " + " " + age);
                 Console.WriteLine("Employee Password is:  " + " " + empPassword);
             }
-            else if (EmpId != empId)
+            else  
             {
                 Console.WriteLine("Empid is invalid");
             }
+            Console.ReadKey();
         }
 
     }       
